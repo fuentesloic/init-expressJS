@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'init' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 silly package data undefined
+6 info init written successfully
+7 verbose stack Error: Invalid name: "install express --save"
+7 verbose stack     at ensureValidName (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:315:15)
+7 verbose stack     at Object.module.exports.fixNameField (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:204:5)
+7 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:30:38
+7 verbose stack     at Array.forEach (native)
+7 verbose stack     at normalize (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:29:15)
+7 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
+7 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+7 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:316:48
+7 verbose stack     at evalmachine.<anonymous>:207:20
+7 verbose stack     at OpenReq.Req.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:141:5)
+8 verbose cwd /Users/fuentes/myapp
+9 error Darwin 13.4.0
+10 error argv "node" "/usr/local/bin/npm" "init"
+11 error node v0.10.32
+12 error npm  v2.0.2
+13 error Invalid name: "install express --save"
+14 error If you need help, you may report this error at:
+14 error     <http://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]

@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "ma premiere app",
+  "main": "index.js",
+  "scripts": {
+    "test": "aa"
+  },
+  "keywords": [
+    "aa"
+  ],
+  "author": "loic",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "express": "^4.10.4",
+    "express-handlebars": "^1.1.0",
+    "node-persist": "0.0.2"
+  }
+}
